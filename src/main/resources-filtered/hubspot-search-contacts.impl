@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>${hubspot-search-contacts.impl.id}</implementationId>
+  <implementationVersion>${hubspot-search-contacts.impl.version}</implementationVersion>
+  <definitionId>${hubspot-search-contacts.def.id}</definitionId>
+  <definitionVersion>${hubspot-search-contacts.def.version}</definitionVersion>
+  <implementationClassname>${hubspot-search-contacts.main-class}</implementationClassname>
+  <hasSources>false</hasSources>
+  <description>HubSpot CRM Search Contacts connector implementation</description>
+
+<!-- retrieved from the pom.xml at build time -->
+${connector-dependencies}
+
+</implementation:connectorImplementation>

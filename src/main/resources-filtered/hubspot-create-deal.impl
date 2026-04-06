@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>${hubspot-create-deal.impl.id}</implementationId>
+  <implementationVersion>${hubspot-create-deal.impl.version}</implementationVersion>
+  <definitionId>${hubspot-create-deal.def.id}</definitionId>
+  <definitionVersion>${hubspot-create-deal.def.version}</definitionVersion>
+  <implementationClassname>${hubspot-create-deal.main-class}</implementationClassname>
+  <hasSources>false</hasSources>
+  <description>HubSpot CRM Create Deal connector implementation</description>
+
+<!-- retrieved from the pom.xml at build time -->
+${connector-dependencies}
+
+</implementation:connectorImplementation>
